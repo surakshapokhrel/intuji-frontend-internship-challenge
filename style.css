@@ -185,17 +185,19 @@ nav {
   height: 30px;
   width: 104px;
   margin-right: 24px;
+  margin-left: 6px;
 }
 .info-row-right {
   height: 30px;
   width: 102px;
+  margin-left: 6px;
 }
 .image-content {
   width: 508px;
   height: 714px;
   flex-shrink: 0;
   top: -15px;
-  overflow: hidden;
+
   position: relative;
 }
 .page-wrapper {
@@ -203,12 +205,29 @@ nav {
   width: 100%;
   height: 860px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .left-bottom {
   position: absolute;
-  width: 119px;
-  height: 103px;
+  /* width: 119px;
+  height: 103px; */
   flex-shrink: 0;
-  bottom: 57px;
-  left: -46px;
+  top: 700px;
+  left: 0;
+}
+.right-top {
+  position: absolute;
+  /* width: 126px;
+  height: 113px; */
+  flex-shrink: 0;
+  /* background: linear-gradient(292deg, #62bada -35.02%, #c9e7f2 78.96%); */
+  right: 0;
+  top: 187px;
+}
+.right-bottom {
+  position: absolute;
+  fill: var(--Pallet-4-Primary, #3734a9);
+  flex-shrink: 0;
+  right: 0px;
+  top: 718px;
 }
