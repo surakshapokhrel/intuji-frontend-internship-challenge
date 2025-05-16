@@ -425,10 +425,16 @@ nav {
   gap: 73px;
 }
 .payment-tracker-section img {
-  /* position: relative; */
+  position: relative;
+}
+.payment-tracker-section-img1 {
   width: 603px;
 }
-
+.payment-tracker-section-img2 {
+  position: absolute;
+  left: 453px;
+  bottom: 500px;
+}
 .subtitle {
   color: var(--Pallet-4-Primary, #3734a9);
   font-family: " Manrope";
@@ -737,7 +743,17 @@ nav {
   width: 479px;
   height: 152px;
   justify-content: center;
+  position: relative;
 }
+.testimoniallogo2 {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 30px;
+  bottom: 128px;
+}
+
 .transaction2 p {
   color: #000;
   width: 426px;
@@ -932,6 +948,15 @@ nav {
   border: 1px solid #cfcfcf;
 
   background-color: #fff;
+  position: relative;
+}
+.tetimonial-logo {
+  width: 57px;
+  height: 57px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 35px;
+  bottom: 373px;
 }
 .testimonial-icon h4 {
   color: #000;
@@ -960,4 +985,10 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 41px;
+}
+.girlimg {
+  margin-top: 24px;
+  margin-bottom: 26px;
+  margin-right: 25px;
+  overflow: hidden;
 }
