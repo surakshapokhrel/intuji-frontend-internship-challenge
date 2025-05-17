@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Manrope";
 }
 body {
   width: 100%;
@@ -14,7 +15,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-top: 38px;
-  width: 1202px;
+  max-width: 1202px;
   height: 52px;
   flex-shrink: 0;
   margin-left: 121px;
@@ -22,7 +23,7 @@ nav {
 .navleft {
   color: #000000;
 
-  font-family: Gilroy;
+  font-family: "Gilroy";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -49,6 +50,18 @@ nav {
   position: absolute;
   right: 585px;
   margin-left: 237px;
+}
+.navmiddle1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.navmiddle1 img {
+  width: 7px;
+  height: 4px;
+  stroke-width: 2px;
+  stroke: #000;
 }
 .navright {
   display: inline-flex;
@@ -101,7 +114,7 @@ nav {
   flex-shrink: 0;
   /* margin-top: 241px; */
   margin-top: 149px;
-  margin-left: auto;
+  margin-left: 121px;
 }
 .text-content h1 {
   color: #000000;
@@ -240,7 +253,9 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  /* max-width: 100%; */
+  /* height: 98.139px; */
+  flex-shrink: 0;
   gap: 36px;
 }
 .partners-text {
@@ -260,6 +275,9 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 49px;
+}
+.partners-logos img {
+  width: 137px;
 }
 .portfolio-tracker {
   background-color: #ffffff;
@@ -314,6 +332,7 @@ nav {
   /* justify-content: center; */
   /* align-items: center; */
   position: relative;
+  /* width: 100%; */
 }
 .testimonial p {
   color: #000000;
@@ -329,7 +348,7 @@ nav {
 
   height: 66px;
 }
-.testimonial p1 {
+.testimonial span {
   color: #000000;
   width: 187px;
   height: 22px;
@@ -765,7 +784,7 @@ nav {
   letter-spacing: -0.3px;
   margin-left: 34px;
 }
-.transaction2 p1 {
+.transaction2 span {
   color: #000;
   margin-left: 34px;
   font-family: "Manrope";
@@ -896,6 +915,8 @@ nav {
   flex-direction: column;
   gap: 74px;
   background-color: #fafbff;
+  overflow: hidden;
+  /* justify-content: center; */
 }
 .testimonial-title {
   display: flex;
@@ -937,12 +958,14 @@ nav {
 .testimonial-cards {
   display: flex;
   gap: 41px;
+  align-items: center;
+  justify-content: center;
 }
 .testimonial-icon {
   display: flex;
   /* flex-direction: column; */
-  /* width: 699px;
-  height: 400px; */
+  /* width: 699px; */
+  /* height: 400px; */
   flex-shrink: 0;
   border-radius: 10px;
   border: 1px solid #cfcfcf;
@@ -958,10 +981,10 @@ nav {
   left: 35px;
   bottom: 373px;
 }
-.testimonial-icon h4 {
+.testimonial-text p {
   color: #000;
   width: 368px;
-  font-family: Manrope;
+  font-family: " Manrope";
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
@@ -970,10 +993,10 @@ nav {
   margin-top: 77px;
   margin-left: 40px;
 }
-.testimonial-icon p {
+.testimonial-text span {
   color: #000;
   width: 249px;
-  font-family: Manrope;
+  font-family: "Manrope";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -987,6 +1010,11 @@ nav {
   gap: 41px;
 }
 .girlimg {
+  margin-top: 24px;
+  margin-bottom: 26px;
+  margin-right: 25px;
+}
+.boyimg {
   margin-top: 24px;
   margin-bottom: 26px;
   margin-right: 25px;
